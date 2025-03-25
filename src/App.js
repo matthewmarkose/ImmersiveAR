@@ -15,7 +15,7 @@ const App = ()=> {
             ar-modes="scene-viewer quick-look webxr"
             src={file}
             ios-src={"/ammu.usdz"}
-            style={{height: '90vh'}} //added width and max-width.
+            style={{height: '90vh', width: '100%'}} //added width and max-width.
         >
         </model-viewer>
       </div>
